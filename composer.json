@@ -1,6 +1,6 @@
 {
     "name": "bagisto/bagisto-product-label",
-    "description": "Allows the admin to create reward  at the back-end.",
+    "description": "Allows create customized labels/stickers for their product listings.",
     "keywords": [
         "bagisto",
         "label",
