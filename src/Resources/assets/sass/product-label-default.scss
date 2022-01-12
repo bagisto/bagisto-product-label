@@ -1,0 +1,134 @@
+.default-label-image {  
+    height: 50px;
+    width: 50px;
+    position: absolute;
+  }
+
+  .default-label {
+    width: 50px;
+    height: 50px;
+  }
+  .default-label-image.Top-Left
+  {
+      left: 0;
+      top: 30px;
+  }
+
+  .default-label-image.Top-Right
+  {
+      right: 0;
+      top: 30px;
+  }
+  .default-label-image.Bottom-Left
+  {
+      left: 0;
+      bottom: 45%;
+  }
+  .default-label-image.Bottom-Right
+  {
+      right: 0;
+      bottom: 45%;
+  }
+  .None
+  {
+      display: none;
+  }
+
+  
+  .default-label-image-gallery {  
+    height: 50px;
+    width: 50px;
+    position: absolute;
+  }
+
+  .default-label-gallery {
+    width: 50px;
+    height: 50px;
+  }
+  .default-label-image-gallery.Top-Left
+  {
+      left: 0px;
+      top: -10px;
+  }
+
+  .default-label-image-gallery.Top-Right
+  {
+      right: -10px;
+      top: -10px;
+  }
+  .default-label-image-gallery.Bottom-Left
+  {
+      left: 0px;
+      bottom: -10px;
+  }
+  .default-label-image-gallery.Bottom-Right
+  {
+      right: -10px;
+      bottom: -10px;
+  }
+
+
+  .default-label-image-wishlist {  
+    height: 30px;
+    width: 30px;
+    position: absolute;
+  }
+
+  .default-label-wishlist {
+    width: 30px;
+    height: 30px;
+  }
+  .default-label-image-wishlist.Top-Left
+  {
+      left: 0px;
+      top: 5px;
+  }
+
+  .default-label-image-wishlist.Top-Right
+  {
+      right: -10px;
+      top: 5px;
+  }
+  .default-label-image-wishlist.Bottom-Left
+  {
+      left: 0px;
+      bottom: 5px;
+  }
+  .default-label-image-wishlist.Bottom-Right
+  {
+      right: -10px;
+      bottom: 5px;
+  }
+
+
+  .default-label-image-wishlist {  
+    height: 30px;
+	width: 30px;
+	position: relative;
+  }
+
+  .default-label-wishlist {
+    width: 30px;
+    height: 30px;
+  }
+  .default-label-image-wishlist.Top-Left
+  {
+      margin-top: -235px;
+      margin-left: 0;
+  }
+
+  .default-label-image-wishlist.Top-Right
+  {
+      margin-top: -235px;
+      margin-left: 180px;
+  }
+  .default-label-image-wishlist.Bottom-Left
+  {
+      margin-top: -80px;
+      margin-left: 0;
+  }
+  .default-label-image-wishlist.Bottom-Right
+  {
+      margin-left: 180px;
+      margin-top: -80px;
+  }

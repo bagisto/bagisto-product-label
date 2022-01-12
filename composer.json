@@ -1,0 +1,33 @@
+{
+    "name": "bagisto/bagisto-product-label",
+    "description": "Allows the admin to create reward  at the back-end.",
+    "keywords": [
+        "bagisto",
+        "label",
+        "product label"
+    ],
+    "homepage": "https://github.com/bagisto/bagisto-product-label",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bagisto"
+        }
+    ],
+    "require": {
+        "konekt/concord": "1.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webkul\\ProductLabelSystem\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\ProductLabelSystem\\Providers\\ProductLabelSystemServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

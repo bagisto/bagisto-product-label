@@ -1,0 +1,134 @@
+.product-label-image {
+	height: 50px;
+	width: 50px !important;
+	position: absolute;
+}
+.product-card-new {
+	.product-image-container {
+		.product-label-image {
+			img {
+				width: 50px;
+				min-height: 50px !important;
+			}
+		}
+	}
+}
+.product-label-image.Top-Left {
+	left: 0;
+	top: 10%;
+}
+.product-label-image.Top-Right {
+	right: 0;
+	top: 10%;
+}
+.product-label-image.Bottom-Left {
+	left: 0;
+	bottom: 0;
+}
+.product-label-image.Bottom-Right {
+	bottom: 0;
+	right: 0;
+}
+.None {
+	display: none;
+}
+.product-label-recent {
+	width: 20px;
+	height: 20px;
+}
+.product-label-image-recent {
+	height: 20px;
+	width: 20px;
+}
+.product-label-image-recent.Top-Left {
+	margin-top: -100px;
+	margin-left: 0px;
+}
+.product-label-image-recent.Top-Right {
+	margin-top: -100px;
+	margin-left: 80px;
+}
+.product-label-image-recent.Bottom-Left {
+	margin-top: -30px;
+	margin-left: 0px;
+}
+.product-label-image-recent.Bottom-Right {
+	margin-top: -30px;
+	margin-left: 80px;
+}
+.product-label-gallery {
+	width: 80px;
+	height: 80px;
+}
+.product-label-image-gallery {
+	height: 80px;
+	width: 80px;
+	position: relative;
+}
+.product-label-image-gallery.Top-Left {
+	margin-left: 0px;
+	margin-top: -550px;
+}
+.product-label-image-gallery.Top-Right {
+	margin-left: 430px;
+	margin-top: -550px;
+}
+.product-label-image-gallery.Bottom-Left {
+	margin-left: 0px;
+	margin-top: -50px;
+}
+.product-label-image-gallery.Bottom-Right {
+	margin-top: -60px;
+	margin-left: 430px;
+}
+.product-label-image-wishlist {
+	height: 40px;
+	width: 40px;
+	position: absolute;
+}
+.product-label-wishlist {
+	width: 40px;
+	height: 40px;
+}
+.product-label-image-wishlist.Top-Left {
+	left: 0;
+	top: 10px;
+}
+.product-label-image-wishlist.Top-Right {
+	right: 0;
+	top: 10px;
+}
+.product-label-image-wishlist.Bottom-Left {
+	left: 0;
+	bottom: 10px;
+}
+.product-label-image-wishlist.Bottom-Right {
+	bottom: 10px;
+	right: 0;
+}
+.product-label-compare {
+	width: 40px;
+	height: 40px;
+}
+.product-label-image-compare {
+	height: 40px;
+	width: 40px;
+}
+.product-label-image-compare.Top-Left {
+	margin-left: 0;
+	margin-top: -200px;
+	margin-bottom: 200px;
+}
+.product-label-image-compare.Top-Right {
+	margin-left: 180px;
+	margin-top: -200px;
+	margin-bottom: 200px;
+}
+.product-label-image-compare.Bottom-Left {
+	margin-left: 0px;
+	margin-top: -50px;
+}
+.product-label-image-compare.Bottom-Right {
+	margin-top: -50px;
+	margin-left: 180px;
+}
