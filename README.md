@@ -27,7 +27,7 @@ It packs in lots of demanding features that allows your business to scale in no 
 
 - **Bagisto**: 1.3.2
 
-## Installation with composer:
+## Installation :
 - Run the following command
 ```
 composer require bagisto/bagisto-product-label
@@ -54,43 +54,7 @@ php artisan vendor:publish --force
 
 -> Press the number before ProductLabelSystemServiceProvider and then press enter to publish all assets and configurations.
 
--> Goto config/app.php file and set your 'default_country'.
+- Goto config/app.php file and set your 'default_country'.
 
-
-## Installation without composer:
-
-- Unzip the respective extension zip and then merge "packages" folders into project root directory.
-- Goto config/app.php file and add following line under 'providers'
-
-```
-Webkul\ProductLabelSystem\Providers\ProductLabelSystemServiceProvider::class
-```
-
-- Goto composer.json file and add following line under 'psr-4'
-
-```
-"Webkul\\ProductLabelSystem\\": "packages/Webkul/ProductLabelSystem/src"
-```
-
-- Run these commands below to complete the setup
-
-```
-composer dump-autoload
-```
-
-```
-php artisan migrate
-```
-
-```
-php artisan route:cache
-```
-
-```
-php artisan vendor:publish --force
-```
--> Press the number before "Webkul\ProductLabelSystem\Providers\ProductLabelSystemServiceProvider" and then press enter to publish all assets and configurations.
-
-- Goto config/app.php file and set your 'default_country'
 
 > That's it, now just execute the project on your specified domain.
